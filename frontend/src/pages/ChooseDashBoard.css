@@ -1,0 +1,47 @@
+.dashboard-title {
+  margin: 50px;
+  text-align: center;
+}
+
+.no-pets-message {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.pet-card {
+  background-color: white;
+  width: 220px;
+  border-radius: 16px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pet-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.pet-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.pet-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
